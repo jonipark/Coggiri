@@ -13,7 +13,7 @@ Designed for **senior cognitive enhancement**, encouraging physical engagement a
 
 ### What it is
 
-**Coggiri: Fruit Grab** is a Vision Pro experience built to improve **cognitive engagement for seniors** through intuitive hand-based gameplay.  
+**Coggiri** is a Vision Pro experience built to improve **cognitive engagement for seniors** through intuitive hand-based gameplay.  
 Players grab floating fruits in 3D space to train **attention, reaction speed, and motor coordination**, blending play with wellness.
 
 ---
