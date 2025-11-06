@@ -52,4 +52,5 @@ Players grab floating fruits in 3D space to train **attention, reaction speed, a
 ---
 
 **`A graduation project by Industrial Design students at Hongik University`**
+
 <img width="400" alt="project-coggiri" src="https://github.com/user-attachments/assets/c1985b4e-9f30-480a-bb7c-edb84ec4298b" />
