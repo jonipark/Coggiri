@@ -280,7 +280,7 @@ struct GameCardView: View {
         .padding(16)
         .frame(width: cardSize.width, height: cardSize.height)
 
-        // ✅ 배경: 하이라이트일 때만 BG 이미지 + 기존 fill 유지
+        // 배경: 하이라이트일 때만 BG 이미지 + 기존 fill 유지
         .background(
             ZStack {
                 if isHighlight {
@@ -301,8 +301,6 @@ struct GameCardView: View {
                 }
             }
         )
-
-        // ✅ 오버레이: 기존 스트로크/글로우 유지
         .overlay(
             Group {
                 if isHighlight {
@@ -322,11 +320,7 @@ struct GameCardView: View {
                 }
             }
         )
-
-        // ✅ 카드 모서리에 맞게 전체 클리핑 (BG 이미지까지)
         .clipShape(RoundedRectangle(cornerRadius: corner, style: .continuous))
-
-        // 스케일/애니메이션 유지
         .scaleEffect(isHighlight ? 1.04 : (isDim ? 0.98 : 1.0))
         .animation(.spring(response: 0.45, dampingFraction: 0.85), value: isHighlight)
         .animation(.easeInOut(duration: 0.25), value: isDim)

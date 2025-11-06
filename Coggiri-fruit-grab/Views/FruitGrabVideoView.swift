@@ -24,7 +24,7 @@ struct FruitGrabVideoView: View {
     
     var body: some View {
         VStack {
-            // ✅ 재생바 없는 커스텀 플레이어
+            // 재생바 없는 커스텀 플레이어
             FitVideoPlayerView(player: player)
                 .aspectRatio(2402/1080, contentMode: .fit)
                 .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
@@ -83,7 +83,7 @@ struct FruitGrabVideoView: View {
     }
 }
 
-/// ✅ 재생바 제거용 UIViewControllerRepresentable
+/// 재생바 제거용 UIViewControllerRepresentable
 struct FitVideoPlayerView: UIViewControllerRepresentable {
     let player: AVPlayer
     

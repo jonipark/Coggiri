@@ -19,13 +19,13 @@ struct FruitGrabResultView: View {
     @State private var goHome = false
     @Environment(\.dismiss) private var dismiss
     
-    // ✅ 업로드 관련 상태
+    // 업로드 관련 상태
     @State private var isUploading: Bool = false
     @State private var showUploadAlert: Bool = false
     @State private var uploadAlertMessage: String = ""
     @State private var generatedName: String = ""
     
-    // ✅ 당신의 웹훅/백엔드 엔드포인트로 교체
+    // 당신의 웹훅/백엔드 엔드포인트로 교체
     private let uploadEndpoint = URL(string: "https://hook.us2.make.com/jgu1f1e5qxjlobjhyn0xr38bez4u8zqu")!
     
     struct ScorePayload: Codable {
@@ -77,7 +77,7 @@ struct FruitGrabResultView: View {
             ZStack {
                 Group {
                     if enableExitButton {
-                        // ✅ 12초 이후엔 비디오 대신 이미지로 전환
+                        // 12초 이후 비디오 대신 이미지로 전환
                         Image("game-recap-end-bg")
                             .resizable()
                             .scaledToFit()
