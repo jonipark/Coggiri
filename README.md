@@ -7,7 +7,7 @@ Designed for **senior cognitive enhancement**, encouraging physical engagement a
 <img width="450" alt="project-coggiri" src="https://github.com/user-attachments/assets/376a2da8-6f68-4f35-b845-652ccf09af3d" />
 
 🎥 Demo:
-
+https://youtu.be/lNLyKoFYmhI
 
 ---
 
