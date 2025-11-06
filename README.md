@@ -3,8 +3,8 @@
 #### A Vision Pro game designed to enhance cognitive skills for seniors through 3D fruit-grabbing in mixed reality
 Designed for **senior cognitive enhancement**, encouraging physical engagement and reaction through gentle, spatial play — bridging **wellness and immersive technology**.
 
-<img width="450" alt="menu" src="https://github.com/user-attachments/assets/ede8d899-af5c-4c32-bae1-a70818556ad3" />
-<img width="450" alt="project-coggiri" src="https://github.com/user-attachments/assets/376a2da8-6f68-4f35-b845-652ccf09af3d" />
+<img width="400" alt="menu" src="https://github.com/user-attachments/assets/ede8d899-af5c-4c32-bae1-a70818556ad3" />
+<img width="400" alt="project-coggiri" src="https://github.com/user-attachments/assets/376a2da8-6f68-4f35-b845-652ccf09af3d" />
 
 🎥 Demo:
 https://youtu.be/lNLyKoFYmhI
